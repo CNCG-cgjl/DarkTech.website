@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.front_backgroung{
+    background-color:#DCDCDC ;
+}
+.title_background:hover{            
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: #3b3b3b;
+    
+}
+.title_button {
+    background-color:gray;  /*按钮背景灰色*/
+    
+    color: aqua;
+    padding: 15px;
+    border-radius: 20%;        /*圆角*/
+    text-align: center;
+}    
+.team_Introduction-item{
+    /* 团队介绍项的基本样式 */
+
+    /* 默认样式 */
+    padding: 16px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+        padding: 8px;
+    }
+}
